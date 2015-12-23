@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE page [<!ENTITY business SYSTEM 'inc_business.xml'>
+]>
+<page>&business;
+    <!---->
+    <body ads="no" menu="Main" name="intro.html" style="format_1">
+        <heading type="special-big">Special Introductory Offer - No Charge!</heading>
+        <heading type="normal-medium">(For CDMA optimization only)</heading>
+        <para> Are you curious about the abilities of Knowledge Systems Consulting Group improving the performance and capacity of
+            your market? For a limited time, Knowledge Systems Consulting Group will perform a software-based optimization
+            of your CDMA system, within an area encompassing 20 sites or so, <strong>at no charge!</strong>
+        </para>
+        <para>All we need from you is the switch data specified in our Knowledge Systems Consulting Group Data Items
+            Descriptions (ADIDs); we’ll drive-test your market, process and analyze the data, build
+            a prop-model, and derive a good optimization solution, <strong>at no charge to you!</strong>
+        </para>
+        <para> The product will be a list of recommended operating-parameter and hardware changes
+            that will dramatically improve the performance of your market! If you are satisfied with
+            the benefits of the Knowledge Systems Consulting Group method, we would be thrilled to discuss applying our
+            techniques to larger areas of your markets!</para>
+        <heading type="normal-medium">Capital or Expense? The 7 Billion Dollar Question (Ask WorldCom!)</heading>
+        <para>Service-providers typically classify work performed by contract engineers to be a
+            capital expenditure, if the work is directly related to new projects, and an expense, if
+            it is associated with maintenance of existing infrastructure. Both CDMA Optimization and
+            frequency plan revisions are essential to the introduction of new sites, so most of our
+            work can be legitimately classified as a capital expenditure. Knowledge Systems Consulting Group will carefully
+            log work performed in support of capital projects versus expensed activities, if we are
+            given a schedule of capital projects, their locations, and all the relevant engineering
+            information for the projects (heights, power, antenna orientations, coverage and
+            capacity objectives). A Knowledge Systems Consulting Group invoice identifies to a detailed level the work
+            performed, the project(s) supported, and the percentage of work performed that supports
+            maintenance, versus capital, activities.</para>
+    </body>
+    <!---->
+</page>

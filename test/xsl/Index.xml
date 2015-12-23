@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE page [<!ENTITY business SYSTEM 'inc_business.xml'>
+]>
+<page>&business;
+    <!---->
+    <body ads="no" menu="Main" name="index.html" style="format_1">
+        <heading type="normal-big">Welcome to Knowledge Systems Consulting Group</heading>
+        <para>Knowledge Systems Consulting Group specializes in the provision of world-class engineering services to the
+            commercial wireless communications industry. We have developed, tested and proven
+            advanced numerical-optimization methods for achieving maximal performance in FDMA
+            systems (IS-136, GSM, iDEN, AMPS) with best-fit frequency plans, and with
+            state-of-the-art hardware and software solutions for CDMA systems.</para>
+        <para>What is the difference between Knowledge Systems Consulting Group, and all those other engineering services
+            companies? At other companies, the service-provider seeks help with complex technical
+            problems, and the services-company responds by placing multiple engineers in the firm,
+            at a typical cost of 20,000 dollars per month per engineer. The engineers typically find
+            and fix a few problems per month, and frequency planning can be an endless, ongoing task
+            for several engineers. At Knowledge Systems Consulting Group, the customer only pays for benefits received. We
+            charge our valued clients only for successful optimization or frequency-planning
+            services provided; no ongoing, open-ended costs for engineering services!</para>
+        <para>Knowledge Systems Consulting Group provides turn-key CDMA-optimization and FDMA frequency-planning services,
+            freeing the engineering teams at the service-provider to focus on growth planning,
+            traffic analysis and planning, site development, outage monitoring, performance
+            reporting. Although Knowledge Systems Consulting Group can certainly provide such functions, these are
+            traditionally activities that are performed expertly by resident engineering teams. But,
+            nobody can rebuild a frequency plan, clear a new carrier for CDMA, tune a CDMA system
+            for minimum drops and FER, or list needed antenna azimuth/power/orientation changes more
+            economically, quicker or better than Knowledge Systems Consulting Group!</para>
+    </body>
+    <!---->
+</page>

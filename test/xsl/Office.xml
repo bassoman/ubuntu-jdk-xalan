@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE page [<!ENTITY business SYSTEM 'inc_business.xml'>
+]>
+<page>&business;
+    <body ads="no" menu="Main" name="office.html" style="format_1">
+        <heading type="normal-big">Our Company</heading>
+        <para> Please contact us for more information on our CDMA/FDMA optimization services.</para>
+        <bios pics="no"/>
+    </body>
+</page>

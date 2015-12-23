@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<business biz_name="Knowledge Systems Consulting Group">
+    <office name="Main Office" type="HQ">
+        <address city="Pacifica" country="USA" state="CA" zip="94044">
+            <street line=""/>
+        </address>
+        <telephone number="650.292.4775" type="Main"/>
+        <personnel>
+            <emp image="hs_jkl.JPG" name="Jonathan K. Lancelle" title="President">
+                <email user="jl@knosys.com"/>
+                <telephone number="415.704.3195" type="Office/Fax"/>
+                <biography>After receiving a BM degree from San Francisco State University, Jonathan
+                    Lancelle's career path lead to long-term employment with the San Francisco Opera
+                    and Ballet orchestras. It has been said before that music and math go together,
+                    and he can certainly attest to that fact. As computer technologies advanced in
+                    recent decades, so did his keen interest in all facets of the industry. From
+                    learning to create relational database systems with the infamous Dbase, to
+                    dabbling with Brainmaker - one of the first neural network simulators, to the
+                    world of object oriented programming and its resultant parallels to neural
+                    network technology – his journey has been exciting to say the least. Mr.
+                    Lancelle's enthusiasm for finding solutions to complex problems has led him to
+                    create Knowledge Systems Consulting Group. Some of his interests include amateur radio and sailing on San
+                    Francisco Bay.</biography>
+                <!--  The optimization of spread spectrum networks is an emerging
+                    challenge to the industry of wireless communication, and AapaSystems is excited
+                    about providing solutions. -->
+            </emp>
+<!--
+            <emp image="hs_bol.JPG" name="Bernie Olshausen" title="Chief Technical Officer">
+                <email user="bolshausen@aapasystems.com"/>
+                <telephone number="425.392.5022" type="Office/Fax"/>
+                <telephone number="425.890.5805" type="Primary Cell"/>
+                <biography>Bernie Olshausen built, designed and tested his first communication
+                    system in 1964, while in the second grade. He became addicted to communication
+                    systems analysis and design when he heard his own voice in headphones attached
+                    to an audio transformer, battery and carbon microphone, and it was in the same
+                    year that Bernie started his studies on the French Horn. Bernie has been
+                    pursuing mastery of the horn and RF Systems Engineering ever since, and brings
+                    to AapaSystems the expertise derived from 20 years’ experience as an RF Systems
+                    engineer, 7 years as an RF Systems technician, and over 12 years serving his
+                    country in the US Air Force and Air National Guard. How does the horn fit in?
+                    Bernie says that “if I can figure out how to get a good tone from this thing and
+                    go clam-free (brass-player-ese for “ errorless”) in Der Freischuetz overture, I
+                    can certainly figure out how to reduce dropped and block calls in CDMA
+                    networks.” Bernie served in the USAF’s 234th Combat Communications Squadron as a
+                    Ground Radio Communications Technician, while he pursued and completed his BS
+                    Electronic Engineering degree at Cal Poly, San Luis Obispo. In the 80’s, Bernie
+                    worked as an RF Systems Engineer and R&amp;D Program Manager for defense-related
+                    projects largely concerned with communication signal detection,
+                    direction-finding, and classification. In this capacity Bernie developed
+                    numerous numerical simulations and models of complex communications systems; at
+                    AapaSystems, Bernie has transferred these same skills and experience to finding
+                    and eliminating problems in commercial networks and frequency planning. With the
+                    demise of our cold-war enemies, and reduced demand for direction-finding
+                    specialists, Bernie joined US West NewVector Group, in Bellevue, WA, serving as
+                    Systems Engineer for the San Diego System, and, from 1992 to 1994, as Lead RF
+                    Engineer for Nebraska, Iowa, the Dakotas and Duluth, WI. In 1994 Bernie joined
+                    McCaw Cellular, where he first worked on testing the initial CDPD systems. In
+                    1995, McCaw Cellular became part of AT&amp;T, and in this year Bernie assumed
+                    responsibilities as Manager of Engineering, for development of AT&amp;T’s PCS
+                    system in Southern Ohio/ No. Kentucky. After his team put 125 PCS sites (with an
+                    average height of over 200 feet!) on the air in 18 months, Bernie accepted his
+                    next challenge as Manager of RF and Performance Education at AT&amp;T. Since the
+                    late 90’s, Bernie served as an engineering manager at Sprint PCS and Western
+                    Wireless, specializing in non-abrasive management, frequency-planning, and CDMA
+                    system optimization. Bernie joined AapaSystems in September 2002, and plans to
+                    keep going just as he has been, in pursuing mastery and artistry in the French
+                    Horn, and RF Systems Engineering.</biography>
+            </emp>
+-->
+            <emp image="hs_tch.JPG" name="Thomas C. Haddon, III" title="Director, Field Engineering">
+                <email user="thaddon@knosys.com"/>
+                <!--                <telephone number="" type="Office/Fax"/>
+                <telephone number="" type="Primary Cell"/>-->
+                <biography>Mr. Haddon has 25+ years experience in RF systems engineering. He has
+                    worked on RF and digital communication systems, intelligence collection systems,
+                    radars, and jammer systems. He performed requirements analysis, path loss trade
+                    studies, system concept studies, and specification development. He has
+                    successfully managed project teams for both hardware and software tasks. Mr.
+                    Haddon has considerable experience from the Navy, first as an aviator flying
+                    reconnaissance missions and later as an Intelligence Officer in the Naval
+                    Reserve. Currently a consultant with the Roadrunners Microwave Group, he enjoys
+                    classical music and amateur radio avocations.<bullets style="font-family: Arial, Helvetica;font-size:12px;text-decoration:none;color:#000000;">
+                        <slug>June 96 - Present Self-employed Consultant and President, Roadrunners
+                            Microwave Group. Microwave communications systems engineering and
+                            analysis for point-to-point RF communications with emphasis on
+                            long-range tropo links. </slug>
+                        <slug>Apr 86 - May 96 Lockheed, Austin Division: Systems engineering support
+                            for USAF U-2R electronic intelligence programs. Performs trade-off
+                            analyses and writes specifications for advanced microwave receivers,
+                            intelligence collection systems, direction-finding systems, special
+                            signal processing, and operator display designs. Develops new business
+                            technical proposals and conducts technical briefings as required. </slug>
+                        <slug>Dec 84 - Apr 86 Lockheed, Sunnyvale, CA: Systems engineering for
+                            microwave receiving systems, wide bandwidth local area networks, and
+                            digital receiver equalization for satellite links. Research &amp;
+                            Development Team Leader. </slug>
+                        <slug>June 80 - Dec 84 GTE Western Division, Mountain View, CA. Performed
+                            requirements analysis, IR&amp;D, product improvement engineering, and
+                            technical presentations in the areas of: electronic and communications
+                            intelligence collection systems, tactical jammer systems, HF FM/CW
+                            radars, direction- finding, LPI signal detection (DS Spread Spectrum),
+                            and HF through microwave receiver design. </slug>
+                        <slug>Nov 76 - Apr 80 Fleet Air Reconnaissance Squadron (VQ-1) . Naval
+                            Flight Officer designation April, 1976. Special Avionics Project Officer
+                            in charge of modifications to squadron RF electronics. On flight
+                            operations, led teams of up to 30 personnel engaged in electronic
+                            reconnaissance in sustained deployments to most bases of the Far East.</slug>
+                    </bullets>
+                </biography>
+            </emp>
+        </personnel>
+    </office>
+    <website borders="no" domain="knosys.com">
+        <repository URI="http://www.knosys.com/images/" type="images"/>
+        <header>
+            <image name="logo.jpg"/>
+        </header>
+        <menu name="Main">
+            <item URI="index.html" desc="Home" page_desc="CDMA/FDMA Optimization Services" keywords="CDMA,performance engineering,optimization,FER,dropped call improvement,PN Planning,RF services, FDMA,iDEN,AMPS,IS-136,GSM,frequency planning,capacity quality optimization"/>
+            <item URI="services.html" desc="Services"/>
+            <item URI="intro.html" desc="Introductory Offer"/>
+            <item URI="office.html" desc="Contact Us" keywords="">
+                <item URI="item1" desc="test1"/>
+                <item URI="item2" desc="test2">
+                    <item URI="item4" desc="test4"/>
+                    <item URI="item5" desc="test5"/>
+                </item>
+                <item URI="item3" desc="test3"/>
+            </item>
+        </menu>
+    </website>
+</business>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="page">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="business"/>
+        <xs:element ref="body"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="business">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="office"/>
+        <xs:element ref="website"/>
+      </xs:sequence>
+      <xs:attribute name="biz_name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="office">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="address"/>
+        <xs:element ref="telephone"/>
+        <xs:element ref="personnel"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="address">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="street"/>
+      </xs:sequence>
+      <xs:attribute name="city" use="required" type="xs:NCName"/>
+      <xs:attribute name="country" use="required" type="xs:NCName"/>
+      <xs:attribute name="state" use="required" type="xs:NCName"/>
+      <xs:attribute name="zip" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="street">
+    <xs:complexType>
+      <xs:attribute name="line" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="personnel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="emp"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="emp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="email"/>
+        <xs:element minOccurs="0" ref="telephone"/>
+        <xs:element ref="biography"/>
+      </xs:sequence>
+      <xs:attribute name="image" use="required" type="xs:NCName"/>
+      <xs:attribute name="name" use="required"/>
+      <xs:attribute name="title" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="email">
+    <xs:complexType>
+      <xs:attribute name="user" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="biography">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="bullets"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="website">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="repository"/>
+        <xs:element ref="header"/>
+        <xs:element ref="menu"/>
+      </xs:sequence>
+      <xs:attribute name="borders" use="required" type="xs:NCName"/>
+      <xs:attribute name="domain" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="repository">
+    <xs:complexType>
+      <xs:attribute name="URI" use="required" type="xs:anyURI"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="image">
+    <xs:complexType>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="menu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="body">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="heading"/>
+        <xs:element ref="para"/>
+      </xs:choice>
+      <xs:attribute name="ads" use="required" type="xs:NCName"/>
+      <xs:attribute name="menu" use="required" type="xs:NCName"/>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="style" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="heading">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="para">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="bullets"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="telephone">
+    <xs:complexType>
+      <xs:attribute name="number" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bullets">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="slug"/>
+      </xs:sequence>
+      <xs:attribute name="style" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="slug" type="xs:string"/>
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+      <xs:attribute name="URI" use="required" type="xs:NCName"/>
+      <xs:attribute name="desc" use="required"/>
+      <xs:attribute name="keywords"/>
+      <xs:attribute name="page_desc"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

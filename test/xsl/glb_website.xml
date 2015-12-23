@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website domain="geronimosailing.com" style="leisure">
+    <repository URI="http://www.catchthefuture.net/aapa/images/" type="images"/>
+    <repository URI="cgi-bin/" type="cgi"/>
+    <menu name="Main">
+        <item URI="index" desc="Home" keywords=""/>
+        <item URI="service" desc="Services">
+            <item URI="item1" desc="test1"/>
+            <item URI="item2" desc="test2">
+                <item URI="item4" desc="test4"/>
+                <item URI="item5" desc="test5"/>
+            </item>
+            <item URI="item3" desc="test3"/>
+        </item>
+        <item URI="history" desc="Company History">
+            <item URI="item6" desc="test6"/>
+            <item URI="item7" desc="test7"/>
+        </item>
+        <item URI="office" desc="Contact Us" keywords=""/>
+    </menu>
+</website>
