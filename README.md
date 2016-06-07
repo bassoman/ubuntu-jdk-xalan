@@ -8,3 +8,4 @@
 	
 ##[Saxon-HE 9.7](http://www.saxonica.com/documentation/#!using-xsl/commandline)
 	* Installed in /opt/SaxonHE
+	* Example from the command line: java net.sf.saxon.Transform -s:source -xsl:stylesheet -o:output
